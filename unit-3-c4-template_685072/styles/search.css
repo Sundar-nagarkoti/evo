@@ -1,0 +1,47 @@
+#results{
+    width :100%;
+    margin-top: 1rem;  
+}
+#results>div{
+    display: flex;
+    border:1px solid red;
+    gap:20px;
+    margin-bottom:10px ;
+}
+#results img{
+    width:300px;
+    height:250px;
+} 
+input#search_input{
+    width: 70%;
+    padding:10px;
+    border-radius: 10px;
+}
+#sidebar{
+    display:flex;
+    flex-direction: column;
+    display: inline-block;
+}
+#sidebar>h3{
+    background-color: #3167fa;
+    color :#f7f7f7;
+    width:100px;
+    padding: 10px;
+    border-radius: 10px;
+  
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar>a{
+    color: #333;
+    text-decoration: none;
+    font-size:2rem
+}
+#container{
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
